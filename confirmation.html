@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation</title>
+  <link rel="stylesheet" href="confirmation.css">
+</head>
+<body>
+  <h1>Order Confirmation</h1>
+  <div class="order-summary">
+    <img id="product-image" alt="Product Image" />
+    <div>
+      <p><strong>Thank you for your purchase!</strong></p>
+      <p><strong>Product:</strong> <span id="product-name"></span></p>
+      <p><strong>Price:</strong> <span id="product-price"></span></p>
+      <p><strong>Quantity:</strong> <span id="product-quantity"></span></p>
+      <p><strong>Total:</strong> <span id="total-price"></span></p>
+    </div>
+  </div>
+  <br>
+  <button onclick="redirectToHome()">Continue Shopping</button>
+  <script src="confirmation.js"></script>
+</body>
+</html>
